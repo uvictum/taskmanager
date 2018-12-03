@@ -1,0 +1,22 @@
+body {
+    padding-top: 4.5rem;
+}
+.btn-primary {
+    display: none;
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.sorting_btn {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 0.5rem;
+}
+
+img {
+    max-height: 240px;
+    max-width: 320px;
+}

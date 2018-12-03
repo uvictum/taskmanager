@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+#prev_container {
+    display: none;
+}
+.form-task{
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+.form-task input[type="submit"]{
+    width: 20%;
+}
+.form-task button {
+    width: 20%;
+}
+.form-task .form-control:focus {
+    z-index: 2;
+}
+.form-task input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-task p {
+    font-size: 0.75rem;
+}
